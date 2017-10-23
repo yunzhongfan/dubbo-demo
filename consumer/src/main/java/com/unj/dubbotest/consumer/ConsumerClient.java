@@ -24,4 +24,17 @@ public class ConsumerClient {
 	        System.out.println(user); // 显示调用结果
 */
 	    }
+	 
+	 /**
+	  * dubbo隐式传参
+	  */
+	 public  void Dubbochuanparam(){
+		  ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
+	                new String[] { "spring-consumer-applcation.xml" });
+	        context.start();
+	        ProviderService  services = (ProviderService) context.getBean("demoService");
+	        
+		 
+		 
+	 }
 }
