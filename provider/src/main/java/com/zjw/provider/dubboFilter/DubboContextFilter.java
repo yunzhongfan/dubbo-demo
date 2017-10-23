@@ -14,7 +14,7 @@ import com.alibaba.dubbo.rpc.RpcResult;
 
 
 /**
- * dubbo Filter  传递上下文状态添加白名单
+ * dubbo Filter  传递上下文状态、以及接口添加白名单
  * @author nbc
  *
  */
