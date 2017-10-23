@@ -19,9 +19,13 @@
 
 	<!-- 将该接口暴露到dubbo中 -->
 	<dubbo:service interface="com.zjw.provider.service.ProviderService" ref="providerService" />
+	
+	<dubbo:provider filter="dubboContextFilter" />  
 
 	<!-- 将具体的实现类加入到Spring容器中 -->
+	
+	<!-- dobbo测试实例 -->
 	<bean id="providerService" class="com.zjw.provider.service.impl.ProviderServiceImpl" />
-
+	
  
 </beans>
