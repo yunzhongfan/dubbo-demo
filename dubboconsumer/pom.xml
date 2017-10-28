@@ -50,12 +50,23 @@
 		  <!-- <scope>test</scope> -->
 	  </dependency>
 
+<!-- dubbo接口模块 -->
 	  <dependency>
-		  <groupId>com.zjw.dubboproviderInterface</groupId>
-		  <artifactId>dubboproviderInterface</artifactId>
+		  <groupId>com.zjw.dubboInterface</groupId>
+		  <artifactId>dubboInterface</artifactId>
 		  <version>1.0-SNAPSHOT</version>
 	  </dependency>
-	</dependencies>
+
+		<!-- 在pom中发布服务方，避免单独发布jar -->
+			<!-- <dependency>
+				<groupId>com.zjw.dubboprovider</groupId>
+				<artifactId>dubboprovider</artifactId>
+				<version>1.0-SNAPSHOT</version>
+			</dependency> -->
+</dependencies>
+	
+	
+
 	
 	
 	<build>

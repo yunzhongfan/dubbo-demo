@@ -52,8 +52,8 @@
             <!-- <scope>test</scope> -->
         </dependency>
         <dependency>
-            <groupId>com.zjw.dubboproviderInterface</groupId>
-            <artifactId>dubboproviderInterface</artifactId>
+            <groupId>com.zjw.dubboInterface</groupId>
+            <artifactId>dubboInterface</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

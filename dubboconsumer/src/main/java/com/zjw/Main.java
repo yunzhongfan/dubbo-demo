@@ -13,7 +13,7 @@ import java.util.List;
  */
 public class Main {
     public static void main(String[] args) {
-        ApplicationContext app = new ClassPathXmlApplicationContext("classpath:dubbo/dubbo-consumer.xml");
+        ApplicationContext app = new ClassPathXmlApplicationContext("classpath:dubbo/dubboconsumer.xml");
         UserService userService = (UserService) app.getBean("userService");
         List<User> userList = userService.queryAll();
         System.out.println("userList.size()--------------------------------------"+userList.size());
